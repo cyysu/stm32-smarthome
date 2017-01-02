@@ -1,0 +1,63 @@
+*** Creating Trace Output File '..\..\Output\流水灯.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\..\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\..\output\core_cm3.o"'
+### List of Objects: adding '"..\..\output\system_stm32f10x.o"'
+### List of Objects: adding '"..\..\output\misc.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_adc.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_bkp.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_can.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_cec.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_crc.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_dac.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_dma.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_exti.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_flash.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_fsmc.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_i2c.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_iwdg.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_pwr.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_rtc.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_sdio.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_spi.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_tim.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_usart.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_wwdg.o"'
+### List of Objects: adding '"..\..\output\main.o"'
+### List of Objects: adding '"..\..\output\stm32f10x_it.o"'
+### List of Objects: adding '"..\..\output\bsp_systick.o"'
+### List of Objects: adding '"..\..\output\bsp_usart1.o"'
+### List of Objects: adding '"..\..\output\bsp_dht11.o"'
+### List of Objects: adding '"..\..\output\bsp_ili9341_lcd.o"'
+### List of Objects: adding '"..\..\output\bsp_adc.o"'
+### List of Objects: adding '"..\..\output\bsp_gpio_spi.o"'
+### List of Objects: adding '"..\..\output\bsp_touch.o"'
+### List of Objects: adding '"..\..\output\bsp_rtc.o"'
+### List of Objects: adding '"..\..\output\bsp_date.o"'
+### List of Objects: adding '"..\..\output\bsp_calendar.o"'
+### List of Objects: adding '"..\..\output\bsp_sdio_sdcard.o"'
+### List of Objects: adding '"..\..\output\bsp_sdfs_app.o"'
+### List of Objects: adding '"..\..\output\bsp_spi_flash.o"'
+### List of Objects: adding '"..\..\output\bsp_timbase.o"'
+### List of Objects: adding '"..\..\output\ff.o"'
+### List of Objects: adding '"..\..\output\diskio.o"'
+### List of Objects: adding '"..\..\output\cc936.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\..\output\startup_stm32f10x_hd.o" "..\..\output\core_cm3.o" "..\..\output\system_stm32f10x.o" "..\..\output\misc.o" "..\..\output\stm32f10x_adc.o" "..\..\output\stm32f10x_bkp.o" "..\..\output\stm32f10x_can.o" "..\..\output\stm32f10x_cec.o" "..\..\output\stm32f10x_crc.o" "..\..\output\stm32f10x_dac.o" "..\..\output\stm32f10x_dbgmcu.o" "..\..\output\stm32f10x_dma.o" "..\..\output\stm32f10x_exti.o" "..\..\output\stm32f10x_flash.o" "..\..\output\stm32f10x_fsmc.o" "..\..\output\stm32f10x_gpio.o" "..\..\output\stm32f10x_i2c.o" "..\..\output\stm32f10x_iwdg.o" "..\..\output\stm32f10x_pwr.o" "..\..\output\stm32f10x_rcc.o" "..\..\output\stm32f10x_rtc.o" "..\..\output\stm32f10x_sdio.o" "..\..\output\stm32f10x_spi.o" "..\..\output\stm32f10x_tim.o" "..\..\output\stm32f10x_usart.o" "..\..\output\stm32f10x_wwdg.o" "..\..\output\main.o" "..\..\output\stm32f10x_it.o" "..\..\output\bsp_systick.o" "..\..\output\bsp_usart1.o" "..\..\output\bsp_dht11.o" "..\..\output\bsp_ili9341_lcd.o" "..\..\output\bsp_adc.o" "..\..\output\bsp_gpio_spi.o" "..\..\output\bsp_touch.o" "..\..\output\bsp_rtc.o" "..\..\output\bsp_date.o" "..\..\output\bsp_calendar.o" "..\..\output\bsp_sdio_sdcard.o" "..\..\output\bsp_sdfs_app.o" "..\..\output\bsp_spi_flash.o" "..\..\output\bsp_timbase.o" "..\..\output\ff.o" "..\..\output\diskio.o" "..\..\output\cc936.o" --library_type=microlib --strict --scatter "..\..\Output\流水灯.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\..\Listing\流水灯.map" -o "..\..\Output\流水灯.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\..\Output\流水灯.axf'
+### ADS-LD Command File: '..\..\Output\流水灯.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\..\Output\流水灯.lnp', Handle=0x00000128
+### Writing '.lnp' file
+### ADS-LD Command file '..\..\Output\流水灯.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
